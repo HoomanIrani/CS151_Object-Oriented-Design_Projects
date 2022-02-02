@@ -1,0 +1,27 @@
+Exercise 2:
+
+
+int: It is a primitive data type that holds actual binary value of your integer. As it is a primitive data type it is always faster to work with but does not have any special capabilities. An int variable holds a 32 bit sighted integer value. 
+
+Example:   int number = 4; 
+In this example number only holds the value which can be used in different places.
+
+
+
+Integer: It is a non-primitive data type which have many special capabilities but on the other hand it takes up more resources. Unlike int, Integer is a class, and variables of type Integer store references to Integer objects, just like any other object type. Wrapper class like Integer inherit from Object class, but primitive data type do not. An Integer holds a reference to an object of class type Integer, or null.
+
+Example: Integer nonPrimitiveInt = new Integer("300");
+In this example nonPrimitiveInt holds reference address of 300 as a String.
+
+Using Integer has lots of functionality that I list few of them below:
+
+Integer.toBinaryString();
+Integer.toOctalString();
+Integer.toHexString();
+Integer.parseInt();
+
+
+
+
+
+
