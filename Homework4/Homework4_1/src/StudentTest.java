@@ -36,7 +36,6 @@ public class StudentTest {
 
             e.printStackTrace();
         }
-
 /**
  * printing student 1&2 information.
  */
@@ -46,8 +45,5 @@ public class StudentTest {
         student2.setCourse("CS149", "Operation System",
                 "CS", "4:30 PM", "Wed");
         student2.printInfo();
-
     }
-
 }
-
