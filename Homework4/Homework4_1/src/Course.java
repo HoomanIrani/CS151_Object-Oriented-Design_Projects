@@ -19,7 +19,6 @@ public class Course implements Cloneable {
     private String courseStart;
     private String dayOfWeek;
 
-
     /**
      * Parameterized constructor for Course class.
      * @param courseName
@@ -37,7 +36,6 @@ public class Course implements Cloneable {
         this.courseStart = courseStart;
         this.dayOfWeek = dayOfWeek;
     }
-
 
     /**
      * Getter methods for Course class attributes.
@@ -67,7 +65,6 @@ public class Course implements Cloneable {
         return dayOfWeek;
     }
 
-
     /**
      *Setter methods for course class attributes.
      */
@@ -96,7 +93,6 @@ public class Course implements Cloneable {
         this.dayOfWeek = dayOfWeek;
     }
 
-
     /**
      * clone method for coping.
      * @return super.clone();
@@ -120,5 +116,4 @@ public class Course implements Cloneable {
                 ", Day Of Week = '" + dayOfWeek + '\'' +
                 '}';
     }
-
 }
